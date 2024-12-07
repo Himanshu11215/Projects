@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+.center {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+.first.second {
+  width: 100%;
+}
+.first {
+  height: 7%;
+}
+.first form {
+  width: 100%;
+  display: flex;
+}
+.first input {
+  width: 90%;
+  padding: 10px;
+}
+.first button {
+  width: 10%;
+  background-color: gray;
+  color: white;
+  border: none;
+}
+.second {
+  height: 92%;
+  overflow: auto;
+}
+.second::-webkit-scrollbar {
+  display: none;
+}
+.second table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.second img {
+  height: 200px;
+  width: 500px;
+}
+.second tr {
+  background-color: gray;
+  color: white;
+}
+.second tr:nth-child(even) {
+  background-color: lightgray;
+  color: navy;
+}
+.second th,
+td {
+  padding: 10px 0;
+}
+.second a {
+  text-decoration: none;
+  color: white;
+  background-color: navy;
+  padding: 10px 20px;
+}
